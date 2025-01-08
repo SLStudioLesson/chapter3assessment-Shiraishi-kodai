@@ -21,5 +21,16 @@ public class App {
         } catch (Exception e) {
             System.err.println("Error: " + e.getMessage());
         }
+
+        //CSV選択
+        if(choice.equals("1")) {
+            CSVDataHandler csv = new CSVDataHandler();
+            csv.CSVDataHandler();
+        //JSON選択
+        } else if(choice.equals("2")) {
+            JSONDataHandler json = new JSONDataHandler();
+        } else {
+            RecipeUI recipiUi = new CSVDataHandler();
+        }
     }
 }

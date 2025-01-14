@@ -1,7 +1,7 @@
 package com.recipeapp.model;
 import java.util.ArrayList;
 
-import main.java.com.recipeapp.model.Ingredient;
+import com.recipeapp.model.Ingredient;
 
 public class Recipe {
     private String name; //レシピ名前
